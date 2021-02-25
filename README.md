@@ -21,4 +21,4 @@ Thanks to Chris (@Whyssp) for help originally setting up the DB connection.
 
 Originally written as a part of a Computer Science course but expanded as I used it for personal use.
 
-*CSS is just generic and needs to be cleaned up a fair bit
+*Removed the CSS files are they are causing havoc with the way Github reads language %, will re-upload once I clean them up
