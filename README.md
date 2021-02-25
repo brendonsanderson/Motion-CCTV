@@ -17,6 +17,7 @@ Web Interface
 The python script requires an active internet connection and will upload images when the camera feed detects motion to your webhost in the ./images/ folder, which live update on the website. It counts 'motion' as enough of a change between two frames at 30fps, not tested with any other fps than the 29.97fps input from my camera but it shouldnt have any problems.
 
 # Credits
-Thanks to Chris (@Whyssp) for help originally setting up the DB connection.
+Thanks to Chris (@Whyssp) for help originally setting up the DB connection.  
+
 Originally written as a part of a Computer Science course but expanded as I used it for personal use.
 
