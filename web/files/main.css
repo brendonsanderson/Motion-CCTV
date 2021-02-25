@@ -1,0 +1,128 @@
+body {
+  font-family: monospace;
+  background:#fff;
+  color:#333;
+  max-width: 800px;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family:"source-code-pro","Source Code Pro","Courier New",monospace;
+  font-weight:400;
+  font-style:normal;
+  color:rgba(0,6,255,0.7);
+  margin:0
+  text-decoration: none;
+}
+a {
+  color:#333;
+  font-weight:350
+}
+a:link { 
+  text-decoration: none;
+  color:#333;
+  font-weight:350
+}
+a:hover {
+  color:rgba(0,6,255,0.7);
+}
+.project-row {
+	height:80px;
+	margin:0 0 40px
+}
+.project-row:last-child {
+	margin-bottom:0
+}
+.project-row>a {
+	display:block
+}
+.project-row .index {
+	box-sizing:border-box;
+	display:inline;
+	float:left;
+	width:8.3333333333%;
+	padding:0 10px;
+	padding-top:24px;
+	padding-bottom:25px
+}
+.project-row .index svg {
+	width:25px;
+	height:25px;
+	display:block
+}
+.project-row .index svg .bot,.project-row .index svg .top {
+	opacity:0;
+	stroke-dasharray:100%;
+	stroke-dashoffset:-100%
+}
+body.project .project-row .index svg .bot,body.project .project-row .index svg .top {
+	opacity:1;
+	stroke-dashoffset:0
+}
+.project-row .index svg line {
+	stroke:#333
+}
+body.project .project-row .index svg .ver {
+	opacity:0
+}
+.project-row .name {
+	box-sizing:border-box;
+	display:inline;
+	float:left;
+	width:18.1818181818%;
+	padding:0 10px;
+	padding-left:0
+}
+.project-row .type {
+	box-sizing:border-box;
+	display:inline;
+	float:left;
+	width:18.1818181818%;
+	padding:0 10px;
+	margin-left:27.2727272727%
+}
+.project-row .year {
+	box-sizing:border-box;
+	display:inline;
+	float:right;
+	width:18.1818181818%;
+	padding:0 10px
+}
+.project-row .team {
+	box-sizing:border-box;
+	display:inline;
+	float:left;
+	width:18.1818181818%;
+	padding:0 10px;
+	padding-right:0
+}
+.project-row .desc {
+	box-sizing:border-box;
+	display:inline;
+	float:left;
+	width:100%;
+	padding:0 0px;
+	border-bottom:1px solid rgba(0,0,0,0.1)
+}
+body.project .project-row .desc {
+	border-bottom:0
+}
+.project-row .meta {
+	border-top:1px solid rgba(0,6,255,0.7));
+	display:block;
+	font-size:11px;
+	line-height:11px;
+	color:rgba(0,6,255,0.7);
+	padding-top:20px;
+	-webkit-transition:color 700ms linear;
+	transition:color 700ms linear
+}
+body.project .project-row .meta {
+	border-top:none
+}
+.project-row p {
+	margin:0px 0px 0px 0px;
+	padding-top:6px;
+	padding-bottom:20px;
+	text-transform:uppercase;
+	letter-spacing:2px
+}
